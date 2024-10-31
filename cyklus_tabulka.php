@@ -3,7 +3,7 @@
  * cyklus
  * 1. Vytvořte tabulku, která bude obsahovat tři sloupce a n řádků. Obsah tabulky bude tvořen obsahem pole $city. Obsah každé buňky bude ve tvaru Pořadové číslo. Stát - Hlavní město
  * Příklad výstupu:
- * | Stát - hlavní město | Stát - hlavní město 		| Stát - hlavní město  |
+ * | Stát - hlavní město | Stát - hlavní město 			| Stát - hlavní město  |
  * |1. Italy - Rome 	 |2. Luxembourg - Luxembourg    |3. Belgium - Brussels |
  *
  * 2. Tabulku setřiďte vzestupně dle názvu státu (A-Z)
@@ -39,5 +39,7 @@ $city = array(
 );
 
 //reseni
-
+foreach ($city as $zeme => $value) {
+    echo $value .'<br />';
+}
 ?>
