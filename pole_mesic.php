@@ -8,5 +8,14 @@
 
 //reseni
 
-?>
+$mesice = array("leden", "unor", "březen", "duben", "květen", "červen", "červenec", "srpen", "zaří", "říjen", "listopad", "prosinec");
 
+foreach ($mesice as $value) {
+    echo $value .'<br />';
+}
+echo '<br />';
+
+for ($i = 5; $i < 12; $i++) {
+    echo $mesice [$i] .'<br />';
+}
+?>

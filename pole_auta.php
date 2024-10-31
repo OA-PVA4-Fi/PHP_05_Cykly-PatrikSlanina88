@@ -16,7 +16,10 @@ $cars = array (
 	array("Saab",5,2),
 	array("Land Rover",17,15)
 );
-
+	foreach ($cars as $value) {
+    	echo $value[1] .'<br />';
+		
+	}
 //reseni
 
 ?>
